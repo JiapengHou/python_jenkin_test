@@ -14,9 +14,9 @@ if not os.path.exists(baseze):
 if not os.path.exists(logze):
     os.makedirs(logze)
 
-with open(os.path.join(baseze,'b.txt'),'w+',encoding='utf8') as f:
+with open(os.path.join(baseze,'b.txt'),'w+') as f:
     f.write('------------------')
-with open(os.path.join(logze,'l.txt'),'w+',encoding='utf8') as f:
+with open(os.path.join(logze,'l.txt'),'w+') as f:
     f.write('=====================')
 
 bFile=os.path.join(baseze,'b.txt')
